@@ -1,15 +1,11 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
 
-
-aside .blue {
-  border: 1px solid blue;
+ul.1-row {
+  display: inline;
 }
 
-aside .pink {
-  border: 1px solid blue;
-}
-
-aside .yellow {
+aside {
+  display: inline-block;
   border: 1px solid blue;
 }
