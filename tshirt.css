@@ -1,11 +1,60 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
-
-ul.1-row {
-  display: inline;
+body {
+  margin: 5%;
 }
 
 aside {
   display: inline-block;
-  border: 1px solid blue;
+  border: 1px solid #63cef2;
+}
+
+div.nav {
+  display: inline;
+  padding: 0;
+}
+
+div.nav2 {
+  display: inline;
+  padding: 0;
+}
+
+div.nav3 {
+  display: inline;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid #63cef2;
+}
+
+.box2 {
+  border: 1px solid #63cef2;
+}
+
+.box3 {
+  border: 1px solid #63cef2;
+}
+
+.box4 {
+  border: 1px solid #63cef2;
+}
+
+.box5 {
+  border: 1px solid #63cef2;
+}
+
+.nav2 li {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav3 li {
+  display: inline-block;
+  text-align: center;
 }
