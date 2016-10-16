@@ -70,7 +70,7 @@ div.nav3 {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
-  margin-left: 125px;
+  margin-left: 80px;
   padding: 0;
 }
 
@@ -127,6 +127,10 @@ div .box5:hover {
 div.box {
   display: inline-block;
   text-decoration: none;
+}
+
+ul li a {
+  padding: 10px;
 }
 
 /*Underlying Text*/
