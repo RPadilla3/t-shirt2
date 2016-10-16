@@ -2,6 +2,7 @@
 
 body {
   margin: 5%;
+  padding: 0;
 }
 
 aside {
@@ -38,14 +39,24 @@ div.nav3 {
   padding: 0;
 }
 
+.nav ul {
+  margin-bottom: 0;
+}
+
 .nav li {
   display: inline-block;
   text-align: center;
 }
-
+.nav2 ul {
+  margin-bottom: 0;
+}
 .nav2 li {
   display: inline-block;
   text-align: center;
+}
+
+.nav3 ul {
+  margin-bottom: 0;
 }
 
 .nav3 li {
@@ -58,12 +69,12 @@ div.nav3 {
 .box {
   border: 1px solid #63cef2;
   display: inline-block;
+  padding-right: 20px;
 }
 
 .box:hover{
   background: #2968ce;
   border-radius: 50%;
-  display: block;
 }
 
 div .box2:hover {
@@ -91,25 +102,30 @@ div .box5:hover {
 .box2 {
   border: 1px solid #63cef2;
   display: inline-block;
+  padding-right: 20px;
 }
 
 .box3 {
   border: 1px solid #63cef2;
   display: inline-block;
+  padding-right: 20px;
 }
 
 .box4 {
   border: 1px solid #63cef2;
   display: inline-block;
+  padding-right: 20px;
 }
 
 .box5 {
   border: 1px solid #63cef2;
   display: inline-block;
+  padding-right: 20px;
 }
 
 div.box {
   display: inline-block;
+  text-decoration: none;
 }
 
 /*Underlying Text*/
