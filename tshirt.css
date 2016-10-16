@@ -47,6 +47,7 @@ div.nav3 {
   display: inline-block;
   text-align: center;
 }
+
 .nav2 ul {
   margin-bottom: 0;
 }
@@ -75,23 +76,23 @@ div.nav3 {
 }
 
 .box:hover{
-  background: #2968ce;
+  background: #63cef2;
 }
 
 div .box2:hover {
-  background: #2968ce;
+  background: #63cef2;
 }
 
 div .box3:hover {
-  background: #2968ce;
+  background: #63cef2;
 }
 
 div .box4:hover {
-  background: #2968ce;
+  background: #63cef2;
 }
 
 div .box5:hover {
-  background: #2968ce;
+  background: #63cef2;
 }
 
 /* Just the icon boxes */
@@ -133,20 +134,7 @@ ul li a {
   padding: 10px;
 }
 
-/*Underlying Text*/
-/*
 .p {
-  display: inline;
+  color: #63cef2;
+  font-family: Courier;
 }
-
-div.p .first {
-  float: left;
-}
-
-div.p .second {
-
-}
-
-div.p .third {
-  float: right;
-}*/
