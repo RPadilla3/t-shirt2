@@ -41,7 +41,7 @@ div.nav3 {
   text-align: center;
 }
 
-/*Icon Boxes*/
+/*Icon Boxes hover properties*/
 
 .box {
   border: 1px solid #63cef2;
@@ -51,6 +51,7 @@ div.nav3 {
 .box:hover{
   background: #2968ce;
   border-radius: 50%;
+
 }
 
 div .box2:hover {
@@ -73,6 +74,8 @@ div .box3:hover {
   border-radius: 50%;
 }
 
+/* Just the icon boxes */
+
 .box2 {
   border: 1px solid #63cef2;
   display: inline-block;
@@ -91,4 +94,8 @@ div .box3:hover {
 .box5 {
   border: 1px solid #63cef2;
   display: inline-block;
+}
+
+.p {
+  display: inline;
 }
