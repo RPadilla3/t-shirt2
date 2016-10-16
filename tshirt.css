@@ -9,6 +9,8 @@ aside {
   border: 1px solid #63cef2;
 }
 
+/*Individual shirt boxes*/
+
 div.nav {
   display: inline;
   padding: 0;
@@ -29,26 +31,6 @@ div.nav3 {
   text-align: center;
 }
 
-.box {
-  border: 1px solid #63cef2;
-}
-
-.box2 {
-  border: 1px solid #63cef2;
-}
-
-.box3 {
-  border: 1px solid #63cef2;
-}
-
-.box4 {
-  border: 1px solid #63cef2;
-}
-
-.box5 {
-  border: 1px solid #63cef2;
-}
-
 .nav2 li {
   display: inline-block;
   text-align: center;
@@ -57,4 +39,31 @@ div.nav3 {
 .nav3 li {
   display: inline-block;
   text-align: center;
+}
+
+/*Icon Boxes*/
+
+.box {
+  border: 1px solid #63cef2;
+  display: inline-block;
+}
+
+.box2 {
+  border: 1px solid #63cef2;
+  display: inline-block;
+}
+
+.box3 {
+  border: 1px solid #63cef2;
+  display: inline-block;
+}
+
+.box4 {
+  border: 1px solid #63cef2;
+  display: inline-block;
+}
+
+.box5 {
+  border: 1px solid #63cef2;
+  display: inline-block;
 }
