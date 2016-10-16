@@ -48,6 +48,31 @@ div.nav3 {
   display: inline-block;
 }
 
+.box:hover{
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+div .box2:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+div .box3:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+.box4:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+.box5:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
 .box2 {
   border: 1px solid #63cef2;
   display: inline-block;
