@@ -9,9 +9,31 @@ aside {
   border: 1px solid #63cef2;
 }
 
-/*FIRST BOX*/
+/*Individual shirt boxes*/
+
+div ul {
+  padding: 0;
+  list-style: none;
+}
+
+div ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
 
 div.nav {
+  display: inline;
+  padding: 0;
+}
+
+div.nav2 {
+  display: inline;
+  padding: 0;
+}
+
+div.nav3 {
   display: inline;
   padding: 0;
 }
@@ -21,6 +43,18 @@ div.nav {
   text-align: center;
 }
 
+.nav2 li {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav3 li {
+  display: inline-block;
+  text-align: center;
+}
+
+/*Icon Boxes hover properties*/
+
 .box {
   border: 1px solid #63cef2;
   display: inline-block;
@@ -29,19 +63,7 @@ div.nav {
 .box:hover{
   background: #2968ce;
   border-radius: 50%;
-
-/*SECOND BOX*/
-
-
-div.nav2 {
-  display: inline;
-  padding: 0;
-}
-
-
-.nav2 li {
-  display: inline-block;
-  text-align: center;
+  display: block;
 }
 
 div .box2:hover {
@@ -49,26 +71,26 @@ div .box2:hover {
   border-radius: 50%;
 }
 
-.box2 {
-  border: 1px solid #63cef2;
-  display: inline-block;
-}
-
-/*THIRD BOX*/
-
-div.nav3 {
-  display: inline;
-  padding: 0;
-}
-
-.nav3 li {
-  display: inline-block;
-  text-align: center;
-}
-
 div .box3:hover {
   background: #2968ce;
   border-radius: 50%;
+}
+
+div .box4:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+div .box5:hover {
+  background: #2968ce;
+  border-radius: 50%;
+}
+
+/* Just the icon boxes */
+
+.box2 {
+  border: 1px solid #63cef2;
+  display: inline-block;
 }
 
 .box3 {
@@ -76,28 +98,18 @@ div .box3:hover {
   display: inline-block;
 }
 
-/*FOURTH BOX*/
-
-.box4:hover {
-  background: #2968ce;
-  border-radius: 50%;
-}
-
 .box4 {
   border: 1px solid #63cef2;
   display: inline-block;
 }
-
-/*FIFTH BOX*/
 
 .box5 {
   border: 1px solid #63cef2;
   display: inline-block;
 }
 
-.box5:hover {
-  background: #2968ce;
-  border-radius: 50%;
+div.box {
+  display: inline-block;
 }
 
 /*Underlying Text*/
@@ -116,6 +128,4 @@ div.p .second {
 
 div.p .third {
   float: right;
-}
-
-*/
+}*/
