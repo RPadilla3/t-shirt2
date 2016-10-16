@@ -70,31 +70,28 @@ div.nav3 {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
+  margin-left: 125px;
+  padding: 0;
 }
 
 .box:hover{
   background: #2968ce;
-  border-radius: 50%;
 }
 
 div .box2:hover {
   background: #2968ce;
-  border-radius: 50%;
 }
 
 div .box3:hover {
   background: #2968ce;
-  border-radius: 50%;
 }
 
 div .box4:hover {
   background: #2968ce;
-  border-radius: 50%;
 }
 
 div .box5:hover {
   background: #2968ce;
-  border-radius: 50%;
 }
 
 /* Just the icon boxes */
@@ -103,24 +100,28 @@ div .box5:hover {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
+  padding: 0;
 }
 
 .box3 {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
+  padding: 0;
 }
 
 .box4 {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
+  padding: 0;
 }
 
 .box5 {
   border: 1px solid #63cef2;
   display: inline-block;
   padding-right: 20px;
+  padding: 0;
 }
 
 div.box {
