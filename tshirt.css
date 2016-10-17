@@ -1,158 +1,98 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
-body {
-  margin: 5%;
-  padding: 0;
-}
-
 img {
-  padding: 5px;
+  padding: 20px;
 }
 
-aside {
+article {
   display: inline-block;
-  border: 1px solid #63cef2;
+  border: 2px solid #63cef2;
+  box-sizing: border-box;
 }
 
+article section {
+
+}
+
+article li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 80px;
+  border: 2px solid #63cef2;
+  border-right: none;
+  position: relative;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.submenu {
+  border: 2px solid #63cef2;
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0;
+  border-bottom: none;
+
+
+}
+
+.submenu li {
+  border: none;
+}
+
+article li:.submenu :={
+  opacity: 1;
+  bottom: 60px;
+}
 /*Individual shirt boxes*/
+
+nav {
+  box-sizing: border-box;
+}
 
 nav ul {
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 nav ul li {
   display: inline-block;
   position: relative;
-  line-height: 21px;
+  line-height: 20px;
   text-align: left;
+  box-sizing: border-box;
 }
 
 nav .icon {
   /*display: inline-block;*/
 }
 
-nav.nav {
+nav {
   display: inline;
   padding: 0;
 }
 
-nav.nav2 {
-  display: inline;
-  padding: 0;
-}
 
-nav.nav3 {
-  display: inline;
-  padding: 0;
-}
-
-.nav ul {
+nav ul {
   margin-bottom: 0;
 }
 
-.nav li {
+nav li {
   display: inline-block;
-  text-align: center;
+  text-align: none;
 }
 
-.nav2 ul {
-  margin-bottom: 0;
-}
-.nav2 li {
-  display: inline-block;
-  text-align: center;
-}
 
-.nav3 ul {
-  margin-bottom: 0;
-}
-
-.nav3 li {
-  display: inline-block;
-  text-align: center;
-}
-
-/*Icon Boxes hover properties*/
-
-.box {
-  border: 1px solid #63cef2;
-  display: inline-block;
-  padding-right: 20px;
-  margin-left: 80px;
-  padding: 0;
-}
-
-.box:hover{
+nav li:hover {
   background: #63cef2;
 }
 
-nav .box2:hover {
-  background: #63cef2;
-}
 
-nav .box3:hover {
-  background: #63cef2;
-}
-
-nav .box4:hover {
-  background: #63cef2;
-}
-
- .box5:hover {
-  background: #63cef2;
-}
-
-/* Just the icon boxes */
-
-.box2 {
-  border: 1px solid #63cef2;
-  display: inline-block;
-  padding-right: 20px;
-  padding: 0;
-}
-
-.box3 {
-  border: 1px solid #63cef2;
-  display: inline-block;
-  padding-right: 20px;
-  padding: 0;
-}
-
-.box4 {
-  border: 1px solid #63cef2;
-  display: inline-block;
-  padding-right: 20px;
-  padding: 0;
-}
-
-.box5 {
-  border: 1px solid #63cef2;
-  display: inline-block;
-  padding-right: 20px;
-  padding: 0;
-}
-
-div.box {
-  display: inline-block;
-  text-decoration: none;
-}
-
-ul li a {
-  padding: 10px;
-}
-
-.p {
-  color: #63cef2;
-  font-family: Courier;
-  display: inline;
-}
-
-h5 {
-  margin: 0;
-  display: inline-block;
-}
-
-.third h5 {
-  float: left;
+@media screen and (min-width: 799px) {
+  p {
+    font-family: cursive;
+  }
 }
