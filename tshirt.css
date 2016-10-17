@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+img {
+  padding: 5px;
+}
+
 aside {
   display: inline-block;
   border: 1px solid #63cef2;
