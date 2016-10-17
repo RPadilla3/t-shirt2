@@ -12,29 +12,33 @@ aside {
 
 /*Individual shirt boxes*/
 
-div ul {
+nav ul {
   padding: 0;
   list-style: none;
 }
 
-div ul li {
+nav ul li {
   display: inline-block;
   position: relative;
   line-height: 21px;
   text-align: left;
 }
 
-div.nav {
+nav .icon {
+  /*display: inline-block;*/
+}
+
+nav.nav {
   display: inline;
   padding: 0;
 }
 
-div.nav2 {
+nav.nav2 {
   display: inline;
   padding: 0;
 }
 
-div.nav3 {
+nav.nav3 {
   display: inline;
   padding: 0;
 }
@@ -79,19 +83,19 @@ div.nav3 {
   background: #63cef2;
 }
 
-div .box2:hover {
+nav .box2:hover {
   background: #63cef2;
 }
 
-div .box3:hover {
+nav .box3:hover {
   background: #63cef2;
 }
 
-div .box4:hover {
+nav .box4:hover {
   background: #63cef2;
 }
 
-div .box5:hover {
+ .box5:hover {
   background: #63cef2;
 }
 
@@ -137,4 +141,14 @@ ul li a {
 .p {
   color: #63cef2;
   font-family: Courier;
+  display: inline;
+}
+
+h5 {
+  margin: 0;
+  display: inline-block;
+}
+
+.third h5 {
+  float: left;
 }
