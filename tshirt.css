@@ -1,5 +1,15 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
+@media screen and (min-width: 799px) {
+  article {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  
+}
+
 img {
   padding: 20px;
 }
@@ -7,23 +17,29 @@ img {
 article {
   display: inline-block;
   border: 2px solid #63cef2;
+  width: 300px;
   box-sizing: border-box;
-}
-
-article section {
-
 }
 
 article li {
   list-style: none;
   display: block;
   float: left;
-  width: 80px;
+  width: 20%;
   border: 2px solid #63cef2;
-  border-right: none;
   position: relative;
   box-sizing: border-box;
   height: 50px;
+}
+
+.submenu1 {
+  border: 2px solid #63cef2;
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0;
+  border-bottom: none;
 }
 
 .submenu {
@@ -34,7 +50,6 @@ article li {
   background-color: #ffffff;
   opacity: 0;
   border-bottom: none;
-
 
 }
 
@@ -88,11 +103,4 @@ nav li {
 
 nav li:hover {
   background: #63cef2;
-}
-
-
-@media screen and (min-width: 799px) {
-  p {
-    font-family: cursive;
-  }
 }
